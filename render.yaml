@@ -13,7 +13,6 @@ services:
     name: feedback-frontend
     env: static
     plan: free
-    region: singapore
     branch: main
     rootDir: frontend
     buildCommand: npm install && npm run build
