@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { Calendar, TrendingUp, MessageSquare, Users, Building, BookOpen, HelpCircle, Filter, RefreshCw } from 'lucide-react';
 
-const API_BASE_URL = 'https://feedback-backend-ro3l.onrender.com/';
+const API_BASE_URL = 'https://feedback-backend-ro3l.onrender.com';
 
 const Dashboard = () => {
   const [stats, setStats] = useState(null);
