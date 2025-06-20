@@ -182,12 +182,6 @@ const Dashboard = () => {
               icon={Users}
               color="bg-emerald-600"
             />
-            <StatCard
-              title="Latest Update"
-              value="Real-time"
-              icon={Calendar}
-              color="bg-purple-600"
-            />
           </div>
         )}
 
